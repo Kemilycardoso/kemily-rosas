@@ -1,0 +1,103 @@
+:root {
+    --rosa-claro: #FF6FB1;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat';
+}
+
+header {
+    background-color: #ffffff;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    color: #FF6FB1;
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url('img/flor-rosa-1.jpg');
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.botao-inicio {
+    background-color: var(--rosa-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--rosa-claro);
+}
+
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: url('img/flor-rosa-2.png') top right no-repeat,
+        url('img/flor-rosa-3.png') bottom left no-repeat;
+    background-size: 180px 180px;
+}
+
+#galeria {
+    background-color: #FAF4F4;
+}
+
+.fundo-galeria {
+    background: url('img/flor-rosa-4.png') bottom right no-repeat;
+    background-size: 180px 180px;
+}
+
+#contato {
+    background-image: url('img/flor-rosa-5.jpg');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: var(--rosa-claro);
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #F1EDEF;
+}
